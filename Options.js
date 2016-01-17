@@ -358,24 +358,24 @@ var chatPlugins = {
 
 // Register our Modules
 // Pings
-chatPlugins.modules.pings = new chatPlugins.module("pings", "/Options/pings.js", "d97");
+chatPlugins.modules.pings = new chatPlugins.module("pings", "Mediawiki:chat.js/pings.js", "clubpenguin");
 // Multi PM
-chatPlugins.modules.multiPM = new chatPlugins.module("multi PM", "/Options/multiPM.js", "d97");
+chatPlugins.modules.multiPM = new chatPlugins.module("multi PM", "Mediawiki:chat.js/multiPM.js", "clubpenguin");
 // Multi Kick
-chatPlugins.modules.multiKick = new chatPlugins.module("multi kick", "/Options/multiKick.js", "d97");
+chatPlugins.modules.multiKick = new chatPlugins.module("multi kick", "Mediawiki:chat.js/multiKick.js", "clubpenguin");
 chatPlugins.modules.multiKick.modOnly = true;
 // Chat Style
-chatPlugins.modules.style = new chatPlugins.module("Style", "/Options/style.js", "d97");
+chatPlugins.modules.style = new chatPlugins.module("Style", "Mediawiki:chat.js/style.js", "clubpenguin");
 // Tab Complete
-chatPlugins.modules.tabComplete = new chatPlugins.module("tab complete", "/Options/tabComplete.js", "d97");
+chatPlugins.modules.tabComplete = new chatPlugins.module("Tab Complete", "Mediawiki:chat.js/tabComplete.js", "clubpenguin");
 // AFK Button
-chatPlugins.modules.afkButton = new chatPlugins.module("AFK Button", "/Options/afkButton.js", "d97");
+chatPlugins.modules.afkButton = new chatPlugins.module("AFK Button", "Mediawiki:chat.js/afkButton.js", "clubpenguin");
 // Slash Commands
-chatPlugins.modules.slashCommands = new chatPlugins.module("Slash Commands", "/Options/slashCommands.js", "d97");
+chatPlugins.modules.slashCommands = new chatPlugins.module("Slash Commands", "Mediawiki:chat.js/slashCommands.js", "clubpenguin");
 // Search Bar
-chatPlugins.modules.slashCommands = new chatPlugins.module("Search Bar", "/Options/searchBar.js", "d97");
+chatPlugins.modules.slashCommands = new chatPlugins.module("Search Bar", "Mediawiki:chat.js/searchBar.js", "clubpenguin");
 // Chat Hacks
-chatPlugins.modules.slashCommands = new chatPlugins.module("Chat Hacks", "/Options/searchBar.js", "d97");
+chatPlugins.modules.slashCommands = new chatPlugins.module("Chat Hacks", "Mediawiki:chat.js/chatHacks.js", "clubpenguin");
 
 // Load API plugin
 if (typeof(api)=="undefined") {
