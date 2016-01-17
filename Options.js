@@ -374,6 +374,8 @@ chatPlugins.modules.afkButton = new chatPlugins.module("AFK Button", "/Options/a
 chatPlugins.modules.slashCommands = new chatPlugins.module("Slash Commands", "/Options/slashCommands.js", "d97");
 // Search Bar
 chatPlugins.modules.slashCommands = new chatPlugins.module("Search Bar", "/Options/searchBar.js", "d97");
+// Chat Hacks
+chatPlugins.modules.slashCommands = new chatPlugins.module("Chat Hacks", "/Options/searchBar.js", "d97");
 
 // Load API plugin
 if (typeof(api)=="undefined") {
