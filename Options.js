@@ -368,8 +368,6 @@ chatPlugins.modules.multiKick.modOnly = true;
 chatPlugins.modules.style = new chatPlugins.module("Style", "Mediawiki:chat.js/style.js", "clubpenguin");
 // Tab Complete
 chatPlugins.modules.tabComplete = new chatPlugins.module("Tab Complete", "Mediawiki:chat.js/tabComplete.js", "clubpenguin");
-// AFK Button
-chatPlugins.modules.afkButton = new chatPlugins.module("AFK Button", "Mediawiki:chat.js/afkButton.js", "clubpenguin");
 // Slash Commands
 chatPlugins.modules.slashCommands = new chatPlugins.module("Slash Commands", "Mediawiki:chat.js/slashCommands.js", "clubpenguin");
 // Search Bar
