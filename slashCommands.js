@@ -32,7 +32,7 @@ chatPlugins.modules.slashCommands.parse =  function(input) {
 }
 chatPlugins.modules.slashCommands.defaults =  function() {
 	if (confirm("Are you sure you want to erase your current slash commands?")==true) {
-		chatPlugins.pages.list.slashCommands.value = '{"rules":"Please read the [[Chat Rules]]!","slap":"/me slaps you around a bit with a large trout","help":"I need help!","coppa":"http://coppa.org - You must be 13 or older to legally have an account on Wikia."}';
+		chatPlugins.pages.list.slashCommands.value = '{"rules":"Please read the [[Club_Penguin_Wiki:Policy/Chat|rules]]!","snowball":"/me throws you a snowball!","help":"I need help!","coppa":"http://coppa.org - You must be 13 or older to legally have an account on Wikia."}';
 		chatPlugins.pages.save();
 		chatPlugins.modules.slashCommands.commands = JSON.parse(chatPlugins.pages.list.slashCommands.value);
 		$("#slashCommandsInput").val(chatPlugins.modules.slashCommands.unparse(chatPlugins.pages.list.slashCommands.value));
@@ -42,7 +42,7 @@ chatPlugins.modules.slashCommands.load = function() {
 	chatPlugins.pages.list.slashCommands = {name:"SlashCommands.js"};
 	chatPlugins.pages.load();
 	if (chatPlugins.pages.list.slashCommands.value == "error") {
-		chatPlugins.pages.list.slashCommands.value = '{"rules":"Please read the [[Chat Rules]]!","slap":"/me slaps you around a bit with a large trout","help":"I need help!","coppa":"http://coppa.org - You must be 13 or older to legally have an account on Wikia."}';
+		chatPlugins.pages.list.slashCommands.value = '{"rules":"Please read the [[Club_Penguin_Wiki:Policy/Chat|rules]]!","snowball":"/me throws you a snowball!","help":"I need help!","coppa":"http://coppa.org - You must be 13 or older to legally have an account on Wikia."}';
 		chatPlugins.pages.save();
 	}
 	chatPlugins.modules.slashCommands.commands = JSON.parse(chatPlugins.pages.list.slashCommands.value);
