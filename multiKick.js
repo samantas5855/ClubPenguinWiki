@@ -58,7 +58,7 @@ if (wgUserGroups.indexOf("chatmoderator")!=-1) {
 	  }
   }
   if( !$("#multiKickButton").length ) {
-     $('form#Write').append('<a class="wikia-button" href="#" id="multiKickButton" style="position:absolute; right:50px; top:0;">Multi Kick</a>');
+     $('form#Write').append('<a class="wikia-button" href="#" id="multiKickButton" style="position:absolute; right:55px; top:22px;">Multi Kick</a>');
   }
   $("#multiKickButton").click(chatPlugins.modules.multiKick.open);
 }
