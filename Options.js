@@ -271,7 +271,7 @@ var chatPlugins = {
 				}
 			}
 			if( !$(".chatPluginsMenu.topiclink").length ) {
-			    $("div.chattopic").append(' • <a href="#" id="chatPluginsButton" class="chatPluginsMenu topiclink"><img src="http://img2.wikia.nocookie.net/__cb20140623220607/gamedezyner/images/b/bb/ChatPluginsButton.png" height="12px" class="optionsimage chattopic-icon" /> options</a>');
+			    $("div.chattopic").append(' • <a href="#" id="chatPluginsButton" class="chatPluginsMenu topiclink"><img src="http://vignette1.wikia.nocookie.net/clubpenguin/images/8/8b/Options.png/revision/latest?cb=20160117105154" height="12px" class="optionsimage chattopic-icon" /> options</a>');
 			}
 			if (chatPluginsCustom.loadedFrom == "w:c:Special:MyPage/global.js" || chatPluginsCustom.loadedFrom == "bookmark") {
 				$("#ChatHeader .public.wordmark").append('<a href="#" id="chatRefreshButton"><img src="http://img4.wikia.nocookie.net/__cb20140818203356/gamedezyner/images/a/a9/ChatPluginsRefreshButton.png" height="32px"/></a>');
